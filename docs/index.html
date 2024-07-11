@@ -14,6 +14,7 @@ nav h2 {margin-bottom: 30px}
 pre {display: inline; background-color: #ddd; padding: 2px}
 #map {height:calc(100% - 70px);}
 .leaflet-tile-container { pointer-events: auto; }
+.btn-ptr {cursor:pointer}
 @media only screen and (max-width: 1440px) {
   nav {height: 90px; width: 100%}
   #map {height:calc(100% - 90px);}
@@ -49,12 +50,12 @@ L.tileLayer('https://tiles.mblaine.com/ohio/{z}/{x}/{y}.png', {
 }).addTo(map);
 var hash = L.hash(map);
 //https://stackoverflow.com/a/64048409
-L.Control.Button = L.Control.extend({
+L.Control.Button1 = L.Control.extend({
     options: {
         position: 'topleft'
     },
     onAdd: function (map) {
-        var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control');
+        var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control btn-ptr');
         var button = L.DomUtil.create('a', 'leaflet-control-button', container);
         L.DomEvent.disableClickPropagation(button);
         L.DomEvent.on(button, 'click', function(){
@@ -68,8 +69,29 @@ L.Control.Button = L.Control.extend({
     },
     onRemove: function(map) {},
 });
-var control = new L.Control.Button()
-control.addTo(map);
+L.Control.Button2 = L.Control.extend({
+    options: {
+        position: 'topleft'
+    },
+    onAdd: function (map) {
+        var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control btn-ptr');
+        var button = L.DomUtil.create('a', 'leaflet-control-button', container);
+        L.DomEvent.disableClickPropagation(button);
+        L.DomEvent.on(button, 'click', function(){
+            map.flyTo([40.103, -82.78], 8, {animate: false});
+        });
+
+        container.title = "Re-center map";
+		button.innerHTML = "Cntr";
+
+        return container;
+    },
+    onRemove: function(map) {},
+});
+var btn1 = new L.Control.Button1();
+btn1.addTo(map);
+var btn2 = new L.Control.Button2();
+btn2.addTo(map);
 //]]>
 </script>
 </body>
