@@ -10,16 +10,16 @@ Imagery URL: `tms[19]:https://tiles.mblaine.com/ohio/{zoom}/{x}/{y}.png`
 
 [OSM Community Forum post](https://community.openstreetmap.org/t/road-map-tiles-from-ohio-government-data/115997)
 
-![Ohio's roads](screenshots/state.png|width=600px)
+<img src="screenshots/state.png" alt="Ohio's roads" style="width:600px" />
 
-###Key:
-![Map key](screenshots/key.png|width=600px)
+#### Key:
+<img src="screenshots/key.png" alt="Map key" style="width:600px" />
 
 The map includes markers where road names begin and end. They're yellow and purple for the sake of contrast. The angled ones are where one name ends, and the straight ones are for cases of only two roads connecting but not at an intersection.
 
-![Example of two lane roads with various names](screenshots/example1.png|width=600px)
+<img src="screenshots/example1.png" alt="Example of two lane roads with various names" style="width:600px" />
 
-###Notes:
+#### Notes
 
 * Physical widths are all in feet and the roads that have them have names in black with a yellow outline.
 * The middle width number is the carraigeway. The other two numbers are for the shoulders, if defined for that road.
@@ -29,7 +29,7 @@ The map includes markers where road names begin and end. They're yellow and purp
 * The speed limit and surface of each road is included along its edges as text to save needing to look at the key.
 * This data was last updated by ODOT on June 20, 2024. Updates are released annually.
 
-###Surface types
+#### Surface types
 Here are ODOT's road surface type codes and how they are represented in this map:
 | ODOT | Map |
 | -------- | ------- |
@@ -45,5 +45,5 @@ Here are ODOT's road surface type codes and how they are represented in this map
 |U - Unimproved|unpaved
 |X - Right of way only|impassible, not a road
 
-
+#### Example
 ![Roads with multiple speed limit and surface types](screenshots/example2.png)
