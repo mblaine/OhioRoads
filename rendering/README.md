@@ -18,9 +18,11 @@ With ohio-merged.osm.pbf in hand (see OhioRoadInventoryExtractor and BUILDING.tx
 # Configure Apache and Renderd
 
 In /etc/apache2/conf-available/renderd.conf I set the following so the tiles are created outside of the virtual Linux installation, so as to not explode the size of the virtual hard disk file it lives in. This isn't necessary, I just needed to based on the disk space I had left.
+    
     ModTileTileDir /mnt/d/TIMS/tile_cache
 	
 In  /etc/renderd.conf I also set:
+    
     tile_dir=/mnt/d/TIMS/tile_cache
 
 I had some trouble with sockets and the Apache service that I resolved by running:
