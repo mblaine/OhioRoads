@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <node id='20000112' visible='true' version='1' lat='41.5225' lon='-82.5294' />
+  <node id='20000113' visible='true' version='1' lat='41.5225' lon='-82.5282' />
+  <node id='20000114' visible='true' version='1' lat='41.5225' lon='-82.5272' />
+  <node id='20000115' visible='true' version='1' lat='41.5225' lon='-82.526' />
+  <node id='20000116' visible='true' version='1' lat='41.5223' lon='-82.5294' />
+  <node id='20000117' visible='true' version='1' lat='41.5223' lon='-82.5282' />
+  <node id='20000118' visible='true' version='1' lat='41.5223' lon='-82.5272' />
+  <node id='20000119' visible='true' version='1' lat='41.5223' lon='-82.526' />
+  <node id='20000120' visible='true' version='1' lat='41.5221' lon='-82.5294' />
+  <node id='20000121' visible='true' version='1' lat='41.5221' lon='-82.5282' />
+  <node id='20000122' visible='true' version='1' lat='41.5221' lon='-82.5272' />
+  <node id='20000123' visible='true' version='1' lat='41.5221' lon='-82.526' />
+  <node id='20000124' visible='true' version='1' lat='41.5219' lon='-82.5294' />
+  <node id='20000125' visible='true' version='1' lat='41.5219' lon='-82.5282' />
+  <node id='20000126' visible='true' version='1' lat='41.5219' lon='-82.5272' />
+  <node id='20000127' visible='true' version='1' lat='41.5219' lon='-82.526' />
+  <node id='20000128' visible='true' version='1' lat='41.5217' lon='-82.5294' />
+  <node id='20000129' visible='true' version='1' lat='41.5217' lon='-82.5282' />
+  <node id='20000130' visible='true' version='1' lat='41.5217' lon='-82.5272' />
+  <node id='20000131' visible='true' version='1' lat='41.5217' lon='-82.526' />
+  <node id='20000132' visible='true' version='1' lat='41.5215' lon='-82.5294' />
+  <node id='20000133' visible='true' version='1' lat='41.5215' lon='-82.5282' />
+  <node id='20000134' visible='true' version='1' lat='41.5215' lon='-82.5272' />
+  <node id='20000135' visible='true' version='1' lat='41.5215' lon='-82.526' />
+  <node id='20000136' visible='true' version='1' lat='41.5213' lon='-82.5294' />
+  <node id='20000137' visible='true' version='1' lat='41.5213' lon='-82.5282' />
+  <node id='20000138' visible='true' version='1' lat='41.5213' lon='-82.5272' />
+  <node id='20000139' visible='true' version='1' lat='41.5213' lon='-82.526' />
+  <node id='20000140' visible='true' version='1' lat='41.5211' lon='-82.5294' />
+  <node id='20000141' visible='true' version='1' lat='41.5211' lon='-82.5282' />
+  <node id='20000142' visible='true' version='1' lat='41.5211' lon='-82.5272' />
+  <node id='20000143' visible='true' version='1' lat='41.5211' lon='-82.526' />
+  <node id='20000144' visible='true' version='1' lat='41.5209' lon='-82.5294' />
+  <node id='20000145' visible='true' version='1' lat='41.5209' lon='-82.5282' />
+  <node id='20000146' visible='true' version='1' lat='41.5209' lon='-82.5272' />
+  <node id='20000147' visible='true' version='1' lat='41.5209' lon='-82.526' />
+  <node id='20000148' visible='true' version='1' lat='41.5207' lon='-82.5294' />
+  <node id='20000149' visible='true' version='1' lat='41.5207' lon='-82.5282' />
+  <node id='20000150' visible='true' version='1' lat='41.5207' lon='-82.5272' />
+  <node id='20000151' visible='true' version='1' lat='41.5207' lon='-82.526' />
+  <node id='20000152' visible='true' version='1' lat='41.5205' lon='-82.5294' />
+  <node id='20000153' visible='true' version='1' lat='41.5205' lon='-82.5282' />
+  <node id='20000154' visible='true' version='1' lat='41.5205' lon='-82.5272' />
+  <node id='20000155' visible='true' version='1' lat='41.5205' lon='-82.526' />
+  <node id='20000156' visible='true' version='1' lat='41.5203' lon='-82.5294' />
+  <node id='20000157' visible='true' version='1' lat='41.5203' lon='-82.5282' />
+  <node id='20000158' visible='true' version='1' lat='41.5203' lon='-82.5272' />
+  <node id='20000159' visible='true' version='1' lat='41.5203' lon='-82.526' />
+  <node id='20000160' visible='true' version='1' lat='41.5201' lon='-82.5294' />
+  <node id='20000161' visible='true' version='1' lat='41.5201' lon='-82.5282' />
+  <node id='20000162' visible='true' version='1' lat='41.5201' lon='-82.5272' />
+  <node id='20000163' visible='true' version='1' lat='41.5201' lon='-82.526' />
+  <node id='20000164' visible='true' version='1' lat='41.5199' lon='-82.5294' />
+  <node id='20000165' visible='true' version='1' lat='41.5199' lon='-82.5282' />
+  <node id='20000166' visible='true' version='1' lat='41.5199' lon='-82.5272' />
+  <node id='20000167' visible='true' version='1' lat='41.5199' lon='-82.526' />
+  <node id='20000326' version='1' visible='true' lat='41.5225' lon='-82.52660393849' />
+  <node id='20000333' version='1' visible='true' lat='41.5223' lon='-82.52659589186' />
+  <way id='20100245' action='modify' visible='true' version='1'>
+    <nd ref='20000112' />
+    <nd ref='20000113' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='5' />
+    <tag k='name' v='speed limit 5 mph' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20100246' action='modify' visible='true' version='1'>
+    <nd ref='20000114' />
+    <nd ref='20000326' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='25' />
+    <tag k='name' v='has &apos;width&apos;' />
+    <tag k='shoulder:left:width' v='2&apos;' />
+    <tag k='shoulder:right:width' v='2&apos;' />
+    <tag k='surface' v='asphalt' />
+    <tag k='width' v='20&apos;' />
+  </way>
+  <way id='20100247' action='modify' visible='true' version='1'>
+    <nd ref='20000116' />
+    <nd ref='20000117' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='10' />
+    <tag k='name' v='speed limit 10 mph' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20100248' action='modify' visible='true' version='1'>
+    <nd ref='20000118' />
+    <nd ref='20000333' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='25' />
+    <tag k='name' v='no &apos;width&apos;' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20100249' action='modify' visible='true' version='1'>
+    <nd ref='20000120' />
+    <nd ref='20000121' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='15' />
+    <tag k='name' v='speed limit 15 mph' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20100250' action='modify' visible='true' version='1'>
+    <nd ref='20000122' />
+    <nd ref='20000123' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='25' />
+    <tag k='name' v='no surface info' />
+  </way>
+  <way id='20100251' action='modify' visible='true' version='1'>
+    <nd ref='20000124' />
+    <nd ref='20000125' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='20' />
+    <tag k='name' v='speed limit 20 mph' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20100252' action='modify' visible='true' version='1'>
+    <nd ref='20000126' />
+    <nd ref='20000127' />
+    <tag k='SURFACE_TYPE_CD' v='G;K' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='25' />
+    <tag k='name' v='surface: asphalt' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20100253' action='modify' visible='true' version='1'>
+    <nd ref='20000128' />
+    <nd ref='20000129' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='25' />
+    <tag k='name' v='speed limit 25 mph' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20100254' action='modify' visible='true' version='1'>
+    <nd ref='20000130' />
+    <nd ref='20000131' />
+    <tag k='SURFACE_TYPE_CD' v='C;D;E' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='25' />
+    <tag k='name' v='surface: concrete' />
+    <tag k='surface' v='concrete' />
+  </way>
+  <way id='20100255' action='modify' visible='true' version='1'>
+    <nd ref='20000132' />
+    <nd ref='20000133' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='30' />
+    <tag k='name' v='speed limit 30 mph' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20100256' action='modify' visible='true' version='1'>
+    <nd ref='20000134' />
+    <nd ref='20000135' />
+    <tag k='SURFACE_TYPE_CD' v='I;L' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='25' />
+    <tag k='name' v='surface: chipseal' />
+    <tag k='surface' v='chipseal' />
+  </way>
+  <way id='20100257' action='modify' visible='true' version='1'>
+    <nd ref='20000136' />
+    <nd ref='20000137' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='35' />
+    <tag k='name' v='speed limit 35 mph' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20100258' action='modify' visible='true' version='1'>
+    <nd ref='20000138' />
+    <nd ref='20000139' />
+    <tag k='SURFACE_TYPE_CD' v='B' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='25' />
+    <tag k='name' v='surface: bricks' />
+    <tag k='surface' v='bricks' />
+  </way>
+  <way id='20100259' action='modify' visible='true' version='1'>
+    <nd ref='20000140' />
+    <nd ref='20000141' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='40' />
+    <tag k='name' v='speed limit 40 mph' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20100260' action='modify' visible='true' version='1'>
+    <nd ref='20000142' />
+    <nd ref='20000143' />
+    <tag k='SURFACE_TYPE_CD' v='M' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='25' />
+    <tag k='name' v='surface: gravel' />
+    <tag k='surface' v='gravel' />
+  </way>
+  <way id='20100261' action='modify' visible='true' version='1'>
+    <nd ref='20000144' />
+    <nd ref='20000145' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='45' />
+    <tag k='name' v='speed limit 45 mph' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20100262' action='modify' visible='true' version='1'>
+    <nd ref='20000146' />
+    <nd ref='20000147' />
+    <tag k='SURFACE_TYPE_CD' v='U' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='25' />
+    <tag k='name' v='surface: unpaved' />
+    <tag k='surface' v='unpaved' />
+  </way>
+  <way id='20100263' action='modify' visible='true' version='1'>
+    <nd ref='20000148' />
+    <nd ref='20000149' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='50' />
+    <tag k='name' v='speed limit 50 mph' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20100264' action='modify' visible='true' version='1'>
+    <nd ref='20000150' />
+    <nd ref='20000151' />
+    <tag k='SURFACE_TYPE_CD' v='X' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='25' />
+    <tag k='name' v='surface: impassible' />
+    <tag k='surface' v='impass' />
+  </way>
+  <way id='20100265' action='modify' visible='true' version='1'>
+    <nd ref='20000152' />
+    <nd ref='20000153' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='55' />
+    <tag k='name' v='speed limit 55 mph' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20100266' action='modify' visible='true' version='1'>
+    <nd ref='20000154' />
+    <nd ref='20000155' />
+    <tag k='highway' v='unclassified' />
+    <tag k='lanes' v='2' />
+    <tag k='maxspeed' v='25' />
+    <tag k='name' v='2 lanes' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20100267' action='modify' visible='true' version='1'>
+    <nd ref='20000156' />
+    <nd ref='20000157' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='60' />
+    <tag k='name' v='speed limit 60 mph' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20100268' action='modify' visible='true' version='1'>
+    <nd ref='20000158' />
+    <nd ref='20000159' />
+    <tag k='highway' v='unclassified' />
+    <tag k='lanes' v='3' />
+    <tag k='maxspeed' v='25' />
+    <tag k='name' v='3 lanes' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20100269' action='modify' visible='true' version='1'>
+    <nd ref='20000160' />
+    <nd ref='20000161' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='65' />
+    <tag k='name' v='speed limit 65 mph' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20100270' action='modify' visible='true' version='1'>
+    <nd ref='20000162' />
+    <nd ref='20000163' />
+    <tag k='highway' v='unclassified' />
+    <tag k='lanes' v='4' />
+    <tag k='maxspeed' v='25' />
+    <tag k='name' v='4 lanes' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20100271' action='modify' visible='true' version='1'>
+    <nd ref='20000164' />
+    <nd ref='20000165' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='70' />
+    <tag k='name' v='speed limit 70 mph' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20100272' action='modify' visible='true' version='1'>
+    <nd ref='20000166' />
+    <nd ref='20000167' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='25' />
+    <tag k='name' v='oneway' />
+    <tag k='oneway' v='yes' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20101476' version='1' visible='true'>
+    <nd ref='20000333' />
+    <nd ref='20000119' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='25' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='20101479' version='1' visible='true'>
+    <nd ref='20000326' />
+    <nd ref='20000115' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='25' />
+    <tag k='shoulder:left:width' v='2&apos;' />
+    <tag k='shoulder:right:width' v='2&apos;' />
+    <tag k='surface' v='asphalt' />
+    <tag k='width' v='20&apos;' />
+  </way>
+</osm>

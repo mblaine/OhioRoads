@@ -1,0 +1,19 @@
+OhioRoadInventoryExtractor
+
+This project has a dependency on Esri.FileGDBAPI.dll which is not included in this repository and must be acquired manually at:
+
+	https://github.com/Esri/file-geodatabase-api
+
+OhioRoadInventoryExtractor.csproj contains a reference to Esri.FileGDBAPI.dll, which then needs FileGDBAPI.dll and FileGDBAPID.dll sitting along side it.
+
+Then this project also includes references to NuGet packages:
+
+Newtonsoft.Json	https://www.nuget.org/packages/Newtonsoft.Json/
+ProjNET	https://www.nuget.org/packages/ProjNet
+RBush	https://www.nuget.org/packages/RBush
+
+After successfully running this program, there will be an *.osm file for each county in the output folder. These can be combined into an *.osm.pbf file using [osmium](https://github.com/osmcode/osmium-tool):
+
+osmium merge ADA.osm ALL.osm ASD.osm ATB.osm ATH.osm AUG.osm BEL.osm BRO.osm BUT.osm CAR.osm CHP.osm CLA.osm CLE.osm CLI.osm COL.osm COS.osm CRA.osm CUY.osm DAR.osm DEF.osm DEL.osm ERI.osm FAI.osm FAY.osm FRA.osm FUL.osm GAL.osm GEA.osm GRE.osm GUE.osm HAM.osm HAN.osm HAR.osm HAS.osm HEN.osm HIG.osm HOC.osm HOL.osm HUR.osm JAC.osm JEF.osm KNO.osm LAK.osm LAW.osm LIC.osm LOG.osm LOR.osm LUC.osm MAD.osm MAH.osm MAR.osm MED.osm MEG.osm MER.osm MIA.osm MOE.osm MOT.osm MRG.osm MRW.osm MUS.osm NOB.osm OTT.osm PAU.osm PER.osm PIC.osm PIK.osm POR.osm PRE.osm PUT.osm RIC.osm ROS.osm SAN.osm SCI.osm SEN.osm SHE.osm STA.osm SUM.osm TRU.osm TUS.osm UNI.osm VAN.osm VIN.osm WAR.osm WAS.osm WAY.osm WIL.osm WOO.osm WYA.osm legend.osm -o ohio-merged.osm.pbf
+
+The file legend.osm is totally optional and it is provided in the "output" folder in this repo. Its ID numbers are also made up and arbitrary.

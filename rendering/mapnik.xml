@@ -1,0 +1,2007 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map font-directory="fonts" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+  <Parameters>
+    <Parameter name="scale">1</Parameter>
+    <Parameter name="metatile">2</Parameter>
+    <Parameter name="name"><![CDATA[ODOT TIMS]]></Parameter>
+    <Parameter name="description"><![CDATA[A style to highlight roadway information from the Ohio Department of Transportation's Transportation Information System]]></Parameter>
+    <Parameter name="bounds">-84.821,38.4,-80.51,41.98</Parameter>
+    <Parameter name="center">-82.7,40.194,8</Parameter>
+    <Parameter name="format"><![CDATA[png]]></Parameter>
+    <Parameter name="minzoom">0</Parameter>
+    <Parameter name="maxzoom">20</Parameter>
+  </Parameters>
+  <Style filter-mode="first" name="roads-casing-hatch">
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 20)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-alt.png" line-pattern="warp" opacity="0.5" stroke-width="40" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 20)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-alt-16.png" line-pattern="warp" opacity="0.5" stroke-width="33.2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 20)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-alt-15.png" line-pattern="warp" opacity="0.5" stroke-width="17.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 20)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-alt-14.png" line-pattern="warp" opacity="0.5" stroke-width="13.06" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 20)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-alt-13.png" line-pattern="warp" opacity="0.5" stroke-width="8.53" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 20)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-alt-12.png" line-pattern="warp" opacity="0.5" stroke-width="4" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>400000</MaxScaleDenominator>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 20)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-alt-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>750000</MaxScaleDenominator>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 20)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-alt-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500000</MaxScaleDenominator>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 20)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-alt-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 20)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-alt-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 60)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-alt.png" line-pattern="warp" opacity="0.5" stroke-width="40" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 60)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-alt-16.png" line-pattern="warp" opacity="0.5" stroke-width="33.2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 60)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-alt-15.png" line-pattern="warp" opacity="0.5" stroke-width="17.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 60)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-alt-14.png" line-pattern="warp" opacity="0.5" stroke-width="13.06" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 60)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-alt-13.png" line-pattern="warp" opacity="0.5" stroke-width="8.53" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 60)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-alt-12.png" line-pattern="warp" opacity="0.5" stroke-width="4" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>400000</MaxScaleDenominator>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 60)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-alt-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>750000</MaxScaleDenominator>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 60)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-alt-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500000</MaxScaleDenominator>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 60)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-alt-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 60)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-alt-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 10)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch.png" line-pattern="warp" opacity="0.5" stroke-width="40" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 10)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-16.png" line-pattern="warp" opacity="0.5" stroke-width="33.2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 10)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-15.png" line-pattern="warp" opacity="0.5" stroke-width="17.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 10)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-14.png" line-pattern="warp" opacity="0.5" stroke-width="13.06" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 10)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-13.png" line-pattern="warp" opacity="0.5" stroke-width="8.53" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 10)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-12.png" line-pattern="warp" opacity="0.5" stroke-width="4" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>400000</MaxScaleDenominator>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 10)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>750000</MaxScaleDenominator>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 10)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500000</MaxScaleDenominator>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 10)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 10)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 30)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch.png" line-pattern="warp" opacity="0.5" stroke-width="40" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 30)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-16.png" line-pattern="warp" opacity="0.5" stroke-width="33.2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 30)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-15.png" line-pattern="warp" opacity="0.5" stroke-width="17.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 30)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-14.png" line-pattern="warp" opacity="0.5" stroke-width="13.06" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 30)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-13.png" line-pattern="warp" opacity="0.5" stroke-width="8.53" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 30)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-12.png" line-pattern="warp" opacity="0.5" stroke-width="4" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>400000</MaxScaleDenominator>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 30)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>750000</MaxScaleDenominator>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 30)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500000</MaxScaleDenominator>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 30)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 30)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 40)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch.png" line-pattern="warp" opacity="0.5" stroke-width="40" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 40)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-16.png" line-pattern="warp" opacity="0.5" stroke-width="33.2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 40)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-15.png" line-pattern="warp" opacity="0.5" stroke-width="17.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 40)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-14.png" line-pattern="warp" opacity="0.5" stroke-width="13.06" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 40)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-13.png" line-pattern="warp" opacity="0.5" stroke-width="8.53" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 40)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-12.png" line-pattern="warp" opacity="0.5" stroke-width="4" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>400000</MaxScaleDenominator>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 40)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>750000</MaxScaleDenominator>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 40)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500000</MaxScaleDenominator>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 40)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 40)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 50)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch.png" line-pattern="warp" opacity="0.5" stroke-width="40" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 50)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-16.png" line-pattern="warp" opacity="0.5" stroke-width="33.2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 50)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-15.png" line-pattern="warp" opacity="0.5" stroke-width="17.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 50)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-14.png" line-pattern="warp" opacity="0.5" stroke-width="13.06" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 50)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-13.png" line-pattern="warp" opacity="0.5" stroke-width="8.53" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 50)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-12.png" line-pattern="warp" opacity="0.5" stroke-width="4" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>400000</MaxScaleDenominator>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 50)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>750000</MaxScaleDenominator>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 50)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500000</MaxScaleDenominator>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 50)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 50)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 70)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch.png" line-pattern="warp" opacity="0.5" stroke-width="40" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 70)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-16.png" line-pattern="warp" opacity="0.5" stroke-width="33.2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 70)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-15.png" line-pattern="warp" opacity="0.5" stroke-width="17.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 70)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-14.png" line-pattern="warp" opacity="0.5" stroke-width="13.06" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 70)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-13.png" line-pattern="warp" opacity="0.5" stroke-width="8.53" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 70)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-12.png" line-pattern="warp" opacity="0.5" stroke-width="4" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>400000</MaxScaleDenominator>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 70)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>750000</MaxScaleDenominator>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 70)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500000</MaxScaleDenominator>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 70)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = 70)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/hatch-11.png" line-pattern="warp" opacity="0.5" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <Filter><![CDATA[([maxspeed] != null)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+    </Rule>
+  </Style>
+  <Style filter-mode="first" name="roads-casing">
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 70)]]></Filter>
+      <LineSymbolizer stroke="#ff00ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 70)]]></Filter>
+      <LineSymbolizer stroke="#ff00ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="40" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 70)]]></Filter>
+      <LineSymbolizer stroke="#ff00ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="33.2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 70)]]></Filter>
+      <LineSymbolizer stroke="#ff00ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="17.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 70)]]></Filter>
+      <LineSymbolizer stroke="#ff00ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="13.06" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 70)]]></Filter>
+      <LineSymbolizer stroke="#ff00ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.53" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 70)]]></Filter>
+      <LineSymbolizer stroke="#ff00ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 60)]]></Filter>
+      <LineSymbolizer stroke="#ff0000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 60)]]></Filter>
+      <LineSymbolizer stroke="#ff0000" stroke-linecap="round" stroke-linejoin="round" stroke-width="40" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 60)]]></Filter>
+      <LineSymbolizer stroke="#ff0000" stroke-linecap="round" stroke-linejoin="round" stroke-width="33.2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 60)]]></Filter>
+      <LineSymbolizer stroke="#ff0000" stroke-linecap="round" stroke-linejoin="round" stroke-width="17.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 60)]]></Filter>
+      <LineSymbolizer stroke="#ff0000" stroke-linecap="round" stroke-linejoin="round" stroke-width="13.06" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 60)]]></Filter>
+      <LineSymbolizer stroke="#ff0000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.53" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 60)]]></Filter>
+      <LineSymbolizer stroke="#ff0000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 50)]]></Filter>
+      <LineSymbolizer stroke="#c99716" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 50)]]></Filter>
+      <LineSymbolizer stroke="#c99716" stroke-linecap="round" stroke-linejoin="round" stroke-width="40" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 50)]]></Filter>
+      <LineSymbolizer stroke="#c99716" stroke-linecap="round" stroke-linejoin="round" stroke-width="33.2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 50)]]></Filter>
+      <LineSymbolizer stroke="#c99716" stroke-linecap="round" stroke-linejoin="round" stroke-width="17.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 50)]]></Filter>
+      <LineSymbolizer stroke="#c99716" stroke-linecap="round" stroke-linejoin="round" stroke-width="13.06" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 50)]]></Filter>
+      <LineSymbolizer stroke="#c99716" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.53" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 50)]]></Filter>
+      <LineSymbolizer stroke="#c99716" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 40)]]></Filter>
+      <LineSymbolizer stroke="#f5f436" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 40)]]></Filter>
+      <LineSymbolizer stroke="#f5f436" stroke-linecap="round" stroke-linejoin="round" stroke-width="40" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 40)]]></Filter>
+      <LineSymbolizer stroke="#f5f436" stroke-linecap="round" stroke-linejoin="round" stroke-width="33.2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 40)]]></Filter>
+      <LineSymbolizer stroke="#f5f436" stroke-linecap="round" stroke-linejoin="round" stroke-width="17.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 40)]]></Filter>
+      <LineSymbolizer stroke="#f5f436" stroke-linecap="round" stroke-linejoin="round" stroke-width="13.06" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 40)]]></Filter>
+      <LineSymbolizer stroke="#f5f436" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.53" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 40)]]></Filter>
+      <LineSymbolizer stroke="#f5f436" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 30)]]></Filter>
+      <LineSymbolizer stroke="#029e02" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 30)]]></Filter>
+      <LineSymbolizer stroke="#029e02" stroke-linecap="round" stroke-linejoin="round" stroke-width="40" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 30)]]></Filter>
+      <LineSymbolizer stroke="#029e02" stroke-linecap="round" stroke-linejoin="round" stroke-width="33.2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 30)]]></Filter>
+      <LineSymbolizer stroke="#029e02" stroke-linecap="round" stroke-linejoin="round" stroke-width="17.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 30)]]></Filter>
+      <LineSymbolizer stroke="#029e02" stroke-linecap="round" stroke-linejoin="round" stroke-width="13.06" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 30)]]></Filter>
+      <LineSymbolizer stroke="#029e02" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.53" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 30)]]></Filter>
+      <LineSymbolizer stroke="#029e02" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] > 25)]]></Filter>
+      <LineSymbolizer stroke="#0000ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] > 25)]]></Filter>
+      <LineSymbolizer stroke="#0000ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="40" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] > 25)]]></Filter>
+      <LineSymbolizer stroke="#0000ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="33.2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] > 25)]]></Filter>
+      <LineSymbolizer stroke="#0000ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="17.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] > 25)]]></Filter>
+      <LineSymbolizer stroke="#0000ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="13.06" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] > 25)]]></Filter>
+      <LineSymbolizer stroke="#0000ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.53" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] > 25)]]></Filter>
+      <LineSymbolizer stroke="#0000ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] = null)]]></Filter>
+      <LineSymbolizer stroke="#9b9b9b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 20)]]></Filter>
+      <LineSymbolizer stroke="#0000ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="40" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 20)]]></Filter>
+      <LineSymbolizer stroke="#0000ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="33.2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 20)]]></Filter>
+      <LineSymbolizer stroke="#0000ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="17.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 20)]]></Filter>
+      <LineSymbolizer stroke="#0000ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="13.06" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 20)]]></Filter>
+      <LineSymbolizer stroke="#0000ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.53" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 20)]]></Filter>
+      <LineSymbolizer stroke="#0000ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>400000</MaxScaleDenominator>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 20)]]></Filter>
+      <LineSymbolizer stroke="#0000ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>750000</MaxScaleDenominator>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 20)]]></Filter>
+      <LineSymbolizer stroke="#0000ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500000</MaxScaleDenominator>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 20)]]></Filter>
+      <LineSymbolizer stroke="#0000ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 20)]]></Filter>
+      <LineSymbolizer stroke="#0000ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 10)]]></Filter>
+      <LineSymbolizer stroke="#0cb3a7" stroke-linecap="round" stroke-linejoin="round" stroke-width="40" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 10)]]></Filter>
+      <LineSymbolizer stroke="#0cb3a7" stroke-linecap="round" stroke-linejoin="round" stroke-width="33.2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 10)]]></Filter>
+      <LineSymbolizer stroke="#0cb3a7" stroke-linecap="round" stroke-linejoin="round" stroke-width="17.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 10)]]></Filter>
+      <LineSymbolizer stroke="#0cb3a7" stroke-linecap="round" stroke-linejoin="round" stroke-width="13.06" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 10)]]></Filter>
+      <LineSymbolizer stroke="#0cb3a7" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.53" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 10)]]></Filter>
+      <LineSymbolizer stroke="#0cb3a7" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>400000</MaxScaleDenominator>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 10)]]></Filter>
+      <LineSymbolizer stroke="#0cb3a7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>750000</MaxScaleDenominator>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 10)]]></Filter>
+      <LineSymbolizer stroke="#0cb3a7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500000</MaxScaleDenominator>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 10)]]></Filter>
+      <LineSymbolizer stroke="#0cb3a7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 10)]]></Filter>
+      <LineSymbolizer stroke="#0cb3a7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 5)]]></Filter>
+      <LineSymbolizer stroke="#69008f" stroke-linecap="round" stroke-linejoin="round" stroke-width="40" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 5)]]></Filter>
+      <LineSymbolizer stroke="#69008f" stroke-linecap="round" stroke-linejoin="round" stroke-width="33.2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 5)]]></Filter>
+      <LineSymbolizer stroke="#69008f" stroke-linecap="round" stroke-linejoin="round" stroke-width="17.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 5)]]></Filter>
+      <LineSymbolizer stroke="#69008f" stroke-linecap="round" stroke-linejoin="round" stroke-width="13.06" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 5)]]></Filter>
+      <LineSymbolizer stroke="#69008f" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.53" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 5)]]></Filter>
+      <LineSymbolizer stroke="#69008f" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>400000</MaxScaleDenominator>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 5)]]></Filter>
+      <LineSymbolizer stroke="#69008f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>750000</MaxScaleDenominator>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 5)]]></Filter>
+      <LineSymbolizer stroke="#69008f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500000</MaxScaleDenominator>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 5)]]></Filter>
+      <LineSymbolizer stroke="#69008f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null) and ([maxspeed] >= 5)]]></Filter>
+      <LineSymbolizer stroke="#69008f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null)]]></Filter>
+      <LineSymbolizer stroke-linecap="round" stroke-linejoin="round" stroke-width="40" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null)]]></Filter>
+      <LineSymbolizer stroke-linecap="round" stroke-linejoin="round" stroke-width="33.2" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null)]]></Filter>
+      <LineSymbolizer stroke-linecap="round" stroke-linejoin="round" stroke-width="17.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null)]]></Filter>
+      <LineSymbolizer stroke-linecap="round" stroke-linejoin="round" stroke-width="13.06" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null)]]></Filter>
+      <LineSymbolizer stroke-linecap="round" stroke-linejoin="round" stroke-width="8.53" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null)]]></Filter>
+      <LineSymbolizer stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>400000</MaxScaleDenominator>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null)]]></Filter>
+      <LineSymbolizer stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>750000</MaxScaleDenominator>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null)]]></Filter>
+      <LineSymbolizer stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>1500000</MaxScaleDenominator>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null)]]></Filter>
+      <LineSymbolizer stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <Filter><![CDATA[([maxspeed] != null)]]></Filter>
+      <LineSymbolizer stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+  </Style>
+  <Layer cache-features="true" maximum-scale-denominator="1000000000" name="roads-casing" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName><![CDATA[roads-casing]]></StyleName>
+    <StyleName><![CDATA[roads-casing-hatch]]></StyleName>
+    <Datasource>
+      <Parameter name="type"><![CDATA[postgis]]></Parameter>
+      <Parameter name="dbname"><![CDATA[gis]]></Parameter>
+      <Parameter name="key_field"><![CDATA[]]></Parameter>
+      <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
+      <Parameter name="srid"><![CDATA[3857]]></Parameter>
+      <Parameter name="extent"><![CDATA[-9442230.528576257,4636087.527139462,-8962332.203766456,5157984.011691858]]></Parameter>
+      <Parameter name="table"><![CDATA[(select way, 'road' as feature, name, ref, maxspeed, lanes, surface, "SURFACE_TYPE_CD", oneway, width, "shoulder:left:width", "shoulder:right:width"
+  FROM planet_osm_roads AS features
+  ORDER BY
+    (case when maxspeed is null then 0 else maxspeed end), (case when "SURFACE_TYPE_CD" is null then 0 else 1 end), osm_id
+) AS roads_sql]]></Parameter>
+    </Datasource>
+  </Layer>
+  <Style filter-mode="first" name="roads-fill">
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([surface] = 'bricks')]]></Filter>
+      <LineSymbolizer stroke="#b42e3e" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+      <LinePatternSymbolizer alignment="global" file="sprites/bricks.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'bricks')]]></Filter>
+      <LineSymbolizer stroke="#b42e3e" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+      <LinePatternSymbolizer alignment="global" file="sprites/bricks.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'bricks')]]></Filter>
+      <LineSymbolizer stroke="#b42e3e" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" />
+      <LinePatternSymbolizer alignment="global" file="sprites/bricks.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'bricks')]]></Filter>
+      <LineSymbolizer stroke="#b42e3e" stroke-linecap="round" stroke-linejoin="round" stroke-width="7" />
+      <LinePatternSymbolizer alignment="global" file="sprites/bricks.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="7" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'bricks')]]></Filter>
+      <LineSymbolizer stroke="#b42e3e" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" />
+      <LinePatternSymbolizer alignment="global" file="sprites/bricks.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'bricks')]]></Filter>
+      <LineSymbolizer stroke="#b42e3e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LinePatternSymbolizer alignment="global" file="sprites/bricks.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'bricks')]]></Filter>
+      <LineSymbolizer stroke="#b42e3e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/bricks.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([surface] = 'gravel')]]></Filter>
+      <LineSymbolizer stroke="#858685" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+      <LinePatternSymbolizer alignment="global" file="sprites/gravel.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'gravel')]]></Filter>
+      <LineSymbolizer stroke="#858685" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+      <LinePatternSymbolizer alignment="global" file="sprites/gravel.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'gravel')]]></Filter>
+      <LineSymbolizer stroke="#858685" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" />
+      <LinePatternSymbolizer alignment="global" file="sprites/gravel.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'gravel')]]></Filter>
+      <LineSymbolizer stroke="#858685" stroke-linecap="round" stroke-linejoin="round" stroke-width="7" />
+      <LinePatternSymbolizer alignment="global" file="sprites/gravel.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="7" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'gravel')]]></Filter>
+      <LineSymbolizer stroke="#858685" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" />
+      <LinePatternSymbolizer alignment="global" file="sprites/gravel.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'gravel')]]></Filter>
+      <LineSymbolizer stroke="#858685" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LinePatternSymbolizer alignment="global" file="sprites/gravel.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'gravel')]]></Filter>
+      <LineSymbolizer stroke="#858685" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/gravel.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([surface] = 'unpaved')]]></Filter>
+      <LineSymbolizer stroke="#73603c" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+      <LinePatternSymbolizer alignment="global" file="sprites/unpaved.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'unpaved')]]></Filter>
+      <LineSymbolizer stroke="#73603c" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+      <LinePatternSymbolizer alignment="global" file="sprites/unpaved.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'unpaved')]]></Filter>
+      <LineSymbolizer stroke="#73603c" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" />
+      <LinePatternSymbolizer alignment="global" file="sprites/unpaved.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'unpaved')]]></Filter>
+      <LineSymbolizer stroke="#73603c" stroke-linecap="round" stroke-linejoin="round" stroke-width="7" />
+      <LinePatternSymbolizer alignment="global" file="sprites/unpaved.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="7" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'unpaved')]]></Filter>
+      <LineSymbolizer stroke="#73603c" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" />
+      <LinePatternSymbolizer alignment="global" file="sprites/unpaved.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'unpaved')]]></Filter>
+      <LineSymbolizer stroke="#73603c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LinePatternSymbolizer alignment="global" file="sprites/unpaved.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'unpaved')]]></Filter>
+      <LineSymbolizer stroke="#73603c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/unpaved.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([surface] = 'impass')]]></Filter>
+      <LineSymbolizer stroke="#7d180c" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+      <LinePatternSymbolizer alignment="global" file="sprites/impassible.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'impass')]]></Filter>
+      <LineSymbolizer stroke="#7d180c" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+      <LinePatternSymbolizer alignment="global" file="sprites/impassible.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'impass')]]></Filter>
+      <LineSymbolizer stroke="#7d180c" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" />
+      <LinePatternSymbolizer alignment="global" file="sprites/impassible.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'impass')]]></Filter>
+      <LineSymbolizer stroke="#7d180c" stroke-linecap="round" stroke-linejoin="round" stroke-width="7" />
+      <LinePatternSymbolizer alignment="global" file="sprites/impassible.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="7" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'impass')]]></Filter>
+      <LineSymbolizer stroke="#7d180c" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" />
+      <LinePatternSymbolizer alignment="global" file="sprites/impassible.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'impass')]]></Filter>
+      <LineSymbolizer stroke="#7d180c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LinePatternSymbolizer alignment="global" file="sprites/impassible.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'impass')]]></Filter>
+      <LineSymbolizer stroke="#7d180c" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/impassible.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([surface] = 'chipseal')]]></Filter>
+      <LineSymbolizer stroke="#595757" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+      <LinePatternSymbolizer alignment="global" file="sprites/chipseal.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'chipseal')]]></Filter>
+      <LineSymbolizer stroke="#595757" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+      <LinePatternSymbolizer alignment="global" file="sprites/chipseal.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'chipseal')]]></Filter>
+      <LineSymbolizer stroke="#595757" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" />
+      <LinePatternSymbolizer alignment="global" file="sprites/chipseal.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'chipseal')]]></Filter>
+      <LineSymbolizer stroke="#595757" stroke-linecap="round" stroke-linejoin="round" stroke-width="7" />
+      <LinePatternSymbolizer alignment="global" file="sprites/chipseal.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="7" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'chipseal')]]></Filter>
+      <LineSymbolizer stroke="#595757" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" />
+      <LinePatternSymbolizer alignment="global" file="sprites/chipseal.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'chipseal')]]></Filter>
+      <LineSymbolizer stroke="#595757" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LinePatternSymbolizer alignment="global" file="sprites/chipseal.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'chipseal')]]></Filter>
+      <LineSymbolizer stroke="#595757" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/chipseal.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([surface] = 'concrete')]]></Filter>
+      <LineSymbolizer stroke="#aaaaaa" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+      <LinePatternSymbolizer alignment="global" file="sprites/concrete.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'concrete')]]></Filter>
+      <LineSymbolizer stroke="#aaaaaa" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+      <LinePatternSymbolizer alignment="global" file="sprites/concrete.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'concrete')]]></Filter>
+      <LineSymbolizer stroke="#aaaaaa" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" />
+      <LinePatternSymbolizer alignment="global" file="sprites/concrete.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'concrete')]]></Filter>
+      <LineSymbolizer stroke="#aaaaaa" stroke-linecap="round" stroke-linejoin="round" stroke-width="7" />
+      <LinePatternSymbolizer alignment="global" file="sprites/concrete.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="7" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'concrete')]]></Filter>
+      <LineSymbolizer stroke="#aaaaaa" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" />
+      <LinePatternSymbolizer alignment="global" file="sprites/concrete.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'concrete')]]></Filter>
+      <LineSymbolizer stroke="#aaaaaa" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LinePatternSymbolizer alignment="global" file="sprites/concrete.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'concrete')]]></Filter>
+      <LineSymbolizer stroke="#aaaaaa" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/concrete.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([surface] != null) and ([surface] != 'asphalt')]]></Filter>
+      <LineSymbolizer stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+      <LinePatternSymbolizer alignment="global" file="sprites/none.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] != null) and ([surface] != 'asphalt')]]></Filter>
+      <LineSymbolizer stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+      <LinePatternSymbolizer alignment="global" file="sprites/none.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([surface] != null) and ([surface] != 'asphalt')]]></Filter>
+      <LineSymbolizer stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" />
+      <LinePatternSymbolizer alignment="global" file="sprites/none.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] != null) and ([surface] != 'asphalt')]]></Filter>
+      <LineSymbolizer stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="7" />
+      <LinePatternSymbolizer alignment="global" file="sprites/none.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="7" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] != null) and ([surface] != 'asphalt')]]></Filter>
+      <LineSymbolizer stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" />
+      <LinePatternSymbolizer alignment="global" file="sprites/none.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] != null) and ([surface] != 'asphalt')]]></Filter>
+      <LineSymbolizer stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+      <LinePatternSymbolizer alignment="global" file="sprites/none.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] != null) and ([surface] != 'asphalt')]]></Filter>
+      <LineSymbolizer stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/none.png" line-pattern="repeat" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([surface] = 'asphalt')]]></Filter>
+      <LineSymbolizer stroke="#333333" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'asphalt')]]></Filter>
+      <LineSymbolizer stroke="#333333" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'asphalt')]]></Filter>
+      <LineSymbolizer stroke="#333333" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'asphalt')]]></Filter>
+      <LineSymbolizer stroke="#333333" stroke-linecap="round" stroke-linejoin="round" stroke-width="7" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'asphalt')]]></Filter>
+      <LineSymbolizer stroke="#333333" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'asphalt')]]></Filter>
+      <LineSymbolizer stroke="#333333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter><![CDATA[([surface] = 'asphalt')]]></Filter>
+      <LineSymbolizer stroke="#333333" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <LineSymbolizer stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <LineSymbolizer stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <LineSymbolizer stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>50000</MaxScaleDenominator>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <LineSymbolizer stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="7" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>100000</MaxScaleDenominator>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <LineSymbolizer stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>200000</MaxScaleDenominator>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <LineSymbolizer stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <LineSymbolizer stroke="#f5f5f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" />
+    </Rule>
+  </Style>
+  <Layer cache-features="true" maximum-scale-denominator="1000000000" name="roads-fill" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName><![CDATA[roads-fill]]></StyleName>
+    <Datasource>
+      <Parameter name="type"><![CDATA[postgis]]></Parameter>
+      <Parameter name="dbname"><![CDATA[gis]]></Parameter>
+      <Parameter name="key_field"><![CDATA[]]></Parameter>
+      <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
+      <Parameter name="srid"><![CDATA[3857]]></Parameter>
+      <Parameter name="extent"><![CDATA[-9442230.528576257,4636087.527139462,-8962332.203766456,5157984.011691858]]></Parameter>
+      <Parameter name="table"><![CDATA[(select way, 'road' as feature, name, ref, maxspeed, lanes, surface, "SURFACE_TYPE_CD", oneway, width, "shoulder:left:width", "shoulder:right:width"
+  FROM planet_osm_roads AS features
+  ORDER BY
+    (case when maxspeed is null then 0 else maxspeed end), (case when "SURFACE_TYPE_CD" is null then 0 else 1 end), osm_id
+) AS roads_sql]]></Parameter>
+    </Datasource>
+  </Layer>
+  <Style filter-mode="first" name="roads-lanes">
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([lanes] = 10)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/lanes-10.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([lanes] = 10)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/lanes-10.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([lanes] = 9)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/lanes-9.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([lanes] = 9)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/lanes-9.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([lanes] = 8)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/lanes-8.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([lanes] = 8)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/lanes-8.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([lanes] = 7)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/lanes-7.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([lanes] = 7)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/lanes-7.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([lanes] = 6)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/lanes-6.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([lanes] = 6)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/lanes-6.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([lanes] = 5)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/lanes-5.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([lanes] = 5)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/lanes-5.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([lanes] = 4)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/lanes-4.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([lanes] = 4)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/lanes-4.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([lanes] = 3)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/lanes-3.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([lanes] = 3)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/lanes-3.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([lanes] = 2)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/lanes-2.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([lanes] = 2)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/lanes-2.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([lanes] >= 2)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/none.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([lanes] >= 2)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/none.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+  </Style>
+  <Layer cache-features="true" maximum-scale-denominator="12500" name="roads-lanes" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName><![CDATA[roads-lanes]]></StyleName>
+    <Datasource>
+      <Parameter name="type"><![CDATA[postgis]]></Parameter>
+      <Parameter name="dbname"><![CDATA[gis]]></Parameter>
+      <Parameter name="key_field"><![CDATA[]]></Parameter>
+      <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
+      <Parameter name="srid"><![CDATA[3857]]></Parameter>
+      <Parameter name="extent"><![CDATA[-9442230.528576257,4636087.527139462,-8962332.203766456,5157984.011691858]]></Parameter>
+      <Parameter name="table"><![CDATA[(select way, 'road' as feature, name, ref, maxspeed, lanes, surface, "SURFACE_TYPE_CD", oneway, width, "shoulder:left:width", "shoulder:right:width"
+  FROM planet_osm_roads AS features
+  ORDER BY
+    (case when maxspeed is null then 0 else maxspeed end), (case when "SURFACE_TYPE_CD" is null then 0 else 1 end), osm_id
+) AS roads_sql]]></Parameter>
+    </Datasource>
+  </Layer>
+  <Style filter-mode="first" name="roads-oneway">
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([oneway] = '-1')]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/backward-small.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([oneway] = '-1')]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/backward-small.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="7" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([oneway] = '-1')]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/backward-small.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([oneway] = '-1')]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/backward.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([oneway] != null)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/forward-small.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="22.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([oneway] != null)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/forward-small.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="7" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([oneway] != null)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/forward-small.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([oneway] != null)]]></Filter>
+      <LineSymbolizer stroke-opacity="0" />
+      <LinePatternSymbolizer alignment="global" file="sprites/forward.png" line-pattern="warp" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+    </Rule>
+  </Style>
+  <Layer cache-features="true" maximum-scale-denominator="50000" name="roads-oneway" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName><![CDATA[roads-oneway]]></StyleName>
+    <Datasource>
+      <Parameter name="type"><![CDATA[postgis]]></Parameter>
+      <Parameter name="dbname"><![CDATA[gis]]></Parameter>
+      <Parameter name="key_field"><![CDATA[]]></Parameter>
+      <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
+      <Parameter name="srid"><![CDATA[3857]]></Parameter>
+      <Parameter name="extent"><![CDATA[-9442230.528576257,4636087.527139462,-8962332.203766456,5157984.011691858]]></Parameter>
+      <Parameter name="table"><![CDATA[(select way, 'road' as feature, name, ref, maxspeed, lanes, surface, "SURFACE_TYPE_CD", oneway, width, "shoulder:left:width", "shoulder:right:width"
+  FROM planet_osm_roads AS features
+  ORDER BY
+    (case when maxspeed is null then 0 else maxspeed end), (case when "SURFACE_TYPE_CD" is null then 0 else 1 end), osm_id
+) AS roads_sql]]></Parameter>
+    </Datasource>
+  </Layer>
+  <Style filter-mode="first" name="roads-label-lanes">
+    <Rule>
+      <Filter><![CDATA[([lanes] != null)]]></Filter>
+      <ShieldSymbolizer allow-overlap="true" character-spacing="1" face-name="Roboto Black" file="sprites/none.png" fill="#353434" halo-fill="#e2e0e0" halo-radius="1" placement="line" size="11" spacing="100"><![CDATA[[lanes]]]></ShieldSymbolizer>
+    </Rule>
+  </Style>
+  <Layer cache-features="true" maximum-scale-denominator="25000" name="roads-label-lanes" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName><![CDATA[roads-label-lanes]]></StyleName>
+    <Datasource>
+      <Parameter name="type"><![CDATA[postgis]]></Parameter>
+      <Parameter name="dbname"><![CDATA[gis]]></Parameter>
+      <Parameter name="key_field"><![CDATA[]]></Parameter>
+      <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
+      <Parameter name="srid"><![CDATA[3857]]></Parameter>
+      <Parameter name="extent"><![CDATA[-9442230.528576257,4636087.527139462,-8962332.203766456,5157984.011691858]]></Parameter>
+      <Parameter name="table"><![CDATA[(select way, 'road' as feature, name, ref, maxspeed, lanes, surface, "SURFACE_TYPE_CD", oneway, width, "shoulder:left:width", "shoulder:right:width"
+  FROM planet_osm_roads AS features
+  ORDER BY
+    (case when maxspeed is null then 0 else maxspeed end), (case when "SURFACE_TYPE_CD" is null then 0 else 1 end), osm_id
+) AS roads_sql]]></Parameter>
+    </Datasource>
+  </Layer>
+  <Style filter-mode="first" name="roads-label-width-otherway">
+    <Rule>
+      <Filter><![CDATA[([width] != null)]]></Filter>
+      <TextSymbolizer allow-overlap="false" character-spacing="1" dy="-2" face-name="Roboto Black" fill="#ffffff" halo-fill="#695c37" halo-radius="3" justify-alignment="right" placement="line" size="11" spacing="150" upright="left-only" vertical-alignment="middle"><![CDATA[[shoulder:right:width]+'\'\n'+[width]+'\'\n'+[shoulder:left:width]+'\'']]></TextSymbolizer>
+    </Rule>
+    <Rule>
+      <Filter><![CDATA[([shoulder:left:width] != null)]]></Filter>
+      <TextSymbolizer allow-overlap="false" character-spacing="1" dy="-2" face-name="Roboto Black" fill="#ffffff" halo-fill="#695c37" halo-radius="3" justify-alignment="right" placement="line" size="11" spacing="150" upright="left-only" vertical-alignment="middle"><![CDATA[[shoulder:right:width]+'\'\n'+[width]+'\'\n'+[shoulder:left:width]+'\'']]></TextSymbolizer>
+    </Rule>
+    <Rule>
+      <Filter><![CDATA[([shoulder:right:width] != null)]]></Filter>
+      <TextSymbolizer allow-overlap="false" character-spacing="1" dy="-2" face-name="Roboto Black" fill="#ffffff" halo-fill="#695c37" halo-radius="3" justify-alignment="right" placement="line" size="11" spacing="150" upright="left-only" vertical-alignment="middle"><![CDATA[[shoulder:right:width]+'\'\n'+[width]+'\'\n'+[shoulder:left:width]+'\'']]></TextSymbolizer>
+    </Rule>
+  </Style>
+  <Style filter-mode="first" name="roads-label-width">
+    <Rule>
+      <Filter><![CDATA[([width] != null)]]></Filter>
+      <TextSymbolizer allow-overlap="false" character-spacing="1" dy="2" face-name="Roboto Black" fill="#ffffff" halo-fill="#695c37" halo-radius="3" justify-alignment="right" placement="line" size="11" spacing="150" upright="right-only" vertical-alignment="middle"><![CDATA[[shoulder:left:width]+'\'\n'+[width]+'\'\n'+[shoulder:right:width]+'\'']]></TextSymbolizer>
+    </Rule>
+    <Rule>
+      <Filter><![CDATA[([shoulder:left:width] != null)]]></Filter>
+      <TextSymbolizer allow-overlap="false" character-spacing="1" dy="2" face-name="Roboto Black" fill="#ffffff" halo-fill="#695c37" halo-radius="3" justify-alignment="right" placement="line" size="11" spacing="150" upright="right-only" vertical-alignment="middle"><![CDATA[[shoulder:left:width]+'\'\n'+[width]+'\'\n'+[shoulder:right:width]+'\'']]></TextSymbolizer>
+    </Rule>
+    <Rule>
+      <Filter><![CDATA[([shoulder:right:width] != null)]]></Filter>
+      <TextSymbolizer allow-overlap="false" character-spacing="1" dy="2" face-name="Roboto Black" fill="#ffffff" halo-fill="#695c37" halo-radius="3" justify-alignment="right" placement="line" size="11" spacing="150" upright="right-only" vertical-alignment="middle"><![CDATA[[shoulder:left:width]+'\'\n'+[width]+'\'\n'+[shoulder:right:width]+'\'']]></TextSymbolizer>
+    </Rule>
+  </Style>
+  <Layer cache-features="true" maximum-scale-denominator="12500" name="roads-label-width" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName><![CDATA[roads-label-width]]></StyleName>
+    <StyleName><![CDATA[roads-label-width-otherway]]></StyleName>
+    <Datasource>
+      <Parameter name="type"><![CDATA[postgis]]></Parameter>
+      <Parameter name="dbname"><![CDATA[gis]]></Parameter>
+      <Parameter name="key_field"><![CDATA[]]></Parameter>
+      <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
+      <Parameter name="srid"><![CDATA[3857]]></Parameter>
+      <Parameter name="extent"><![CDATA[-9442230.528576257,4636087.527139462,-8962332.203766456,5157984.011691858]]></Parameter>
+      <Parameter name="table"><![CDATA[(select way, 'road' as feature, name, ref, maxspeed, lanes, surface, "SURFACE_TYPE_CD", oneway, width, "shoulder:left:width", "shoulder:right:width"
+  FROM planet_osm_roads AS features
+  ORDER BY
+    (case when maxspeed is null then 0 else maxspeed end), (case when "SURFACE_TYPE_CD" is null then 0 else 1 end), osm_id
+) AS roads_sql]]></Parameter>
+    </Datasource>
+  </Layer>
+  <Style filter-mode="first" name="roads-label-other-other2">
+    <Rule>
+      <Filter><![CDATA[([maxspeed] != null)]]></Filter>
+      <TextSymbolizer allow-overlap="false" character-spacing="1" dy="-14" face-name="Roboto Black" fill="#ffffff" halo-fill="#474747" halo-radius="2" placement="line" size="10" spacing="275"><![CDATA[[maxspeed]+' mph']]></TextSymbolizer>
+    </Rule>
+  </Style>
+  <Style filter-mode="first" name="roads-label-other">
+    <Rule>
+      <Filter><![CDATA[([SURFACE_TYPE_CD] != null)]]></Filter>
+      <TextSymbolizer allow-overlap="false" character-spacing="1" dy="14" face-name="Roboto Black" fill="#ffffff" halo-fill="#474747" halo-radius="2" placement="line" size="10" spacing="275"><![CDATA[[surface]+'('+[SURFACE_TYPE_CD]+')']]></TextSymbolizer>
+    </Rule>
+  </Style>
+  <Layer cache-features="true" maximum-scale-denominator="12500" name="roads-label-other" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName><![CDATA[roads-label-other]]></StyleName>
+    <StyleName><![CDATA[roads-label-other-other2]]></StyleName>
+    <Datasource>
+      <Parameter name="type"><![CDATA[postgis]]></Parameter>
+      <Parameter name="dbname"><![CDATA[gis]]></Parameter>
+      <Parameter name="key_field"><![CDATA[]]></Parameter>
+      <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
+      <Parameter name="srid"><![CDATA[3857]]></Parameter>
+      <Parameter name="extent"><![CDATA[-9442230.528576257,4636087.527139462,-8962332.203766456,5157984.011691858]]></Parameter>
+      <Parameter name="table"><![CDATA[(select way, 'road' as feature, name, ref, maxspeed, lanes, surface, "SURFACE_TYPE_CD", oneway, width, "shoulder:left:width", "shoulder:right:width"
+  FROM planet_osm_roads AS features
+  ORDER BY
+    (case when maxspeed is null then 0 else maxspeed end), (case when "SURFACE_TYPE_CD" is null then 0 else 1 end), osm_id
+) AS roads_sql]]></Parameter>
+    </Datasource>
+  </Layer>
+  <Style filter-mode="first" name="intersections-cap5">
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([nameEndAngle5] != null) and ([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="15.3" placement="point" transform="rotate([nameEndAngle5]) translate(0 -20)" width="57.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([nameEndAngle5] != null) and ([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="12.274" placement="point" transform="rotate([nameEndAngle5]) translate(0 -20)" width="46.208" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([nameEndAngle5] != null) and ([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="6.5280000000000005" placement="point" transform="rotate([nameEndAngle5]) translate(0 -10)" width="24.576" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([nameEndAngle5] != null) and ([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="4.760000000000001" placement="point" transform="rotate([nameEndAngle5]) translate(0 -10)" width="17.92" />
+    </Rule>
+  </Style>
+  <Style filter-mode="first" name="intersections-cap4">
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([nameEndAngle4] != null) and ([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="15.3" placement="point" transform="rotate([nameEndAngle4]) translate(0 -20)" width="57.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([nameEndAngle4] != null) and ([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="12.274" placement="point" transform="rotate([nameEndAngle4]) translate(0 -20)" width="46.208" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([nameEndAngle4] != null) and ([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="6.5280000000000005" placement="point" transform="rotate([nameEndAngle4]) translate(0 -10)" width="24.576" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([nameEndAngle4] != null) and ([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="4.760000000000001" placement="point" transform="rotate([nameEndAngle4]) translate(0 -10)" width="17.92" />
+    </Rule>
+  </Style>
+  <Style filter-mode="first" name="intersections-cap3">
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([nameEndAngle3] != null) and ([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="15.3" placement="point" transform="rotate([nameEndAngle3]) translate(0 -20)" width="57.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([nameEndAngle3] != null) and ([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="12.274" placement="point" transform="rotate([nameEndAngle3]) translate(0 -20)" width="46.208" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([nameEndAngle3] != null) and ([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="6.5280000000000005" placement="point" transform="rotate([nameEndAngle3]) translate(0 -10)" width="24.576" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([nameEndAngle3] != null) and ([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="4.760000000000001" placement="point" transform="rotate([nameEndAngle3]) translate(0 -10)" width="17.92" />
+    </Rule>
+  </Style>
+  <Style filter-mode="first" name="intersections-cap2">
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([nameEndAngle2] != null) and ([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="15.3" placement="point" transform="rotate([nameEndAngle2]) translate(0 -20)" width="57.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([nameEndAngle2] != null) and ([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="12.274" placement="point" transform="rotate([nameEndAngle2]) translate(0 -20)" width="46.208" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([nameEndAngle2] != null) and ([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="6.5280000000000005" placement="point" transform="rotate([nameEndAngle2]) translate(0 -10)" width="24.576" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([nameEndAngle2] != null) and ([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="4.760000000000001" placement="point" transform="rotate([nameEndAngle2]) translate(0 -10)" width="17.92" />
+    </Rule>
+  </Style>
+  <Style filter-mode="first" name="intersections-cap1">
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([nameEndAngle1] != null) and ([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="15.3" placement="point" transform="rotate([nameEndAngle1]) translate(0 -20)" width="57.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([nameEndAngle1] != null) and ([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="12.274" placement="point" transform="rotate([nameEndAngle1]) translate(0 -20)" width="46.208" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([nameEndAngle1] != null) and ([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="6.5280000000000005" placement="point" transform="rotate([nameEndAngle1]) translate(0 -10)" width="24.576" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([nameEndAngle1] != null) and ([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="4.760000000000001" placement="point" transform="rotate([nameEndAngle1]) translate(0 -10)" width="17.92" />
+    </Rule>
+  </Style>
+  <Style filter-mode="first" name="intersections">
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([connections] = 2)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/separator.png" height="57.6" placement="point" transform="rotate([separatorAngle])" width="9" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([connections] = 2)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/separator.png" height="46.208" placement="point" transform="rotate([separatorAngle])" width="7.22" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([connections] = 2)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/separator.png" height="24.576" placement="point" transform="rotate([separatorAngle])" width="3.84" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([connections] = 2)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/separator.png" height="17.92" placement="point" transform="rotate([separatorAngle])" width="2.8000000000000003" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <Filter><![CDATA[([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="15.3" placement="point" transform="rotate([nameEndAngle0]) translate(0 -20)" width="57.6" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="12.274" placement="point" transform="rotate([nameEndAngle0]) translate(0 -20)" width="46.208" />
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>25000</MaxScaleDenominator>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="6.5280000000000005" placement="point" transform="rotate([nameEndAngle0]) translate(0 -10)" width="24.576" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <Filter><![CDATA[([connections] = null)]]></Filter>
+      <MarkersSymbolizer allow-overlap="true" file="sprites/cap.png" height="4.760000000000001" placement="point" transform="rotate([nameEndAngle0]) translate(0 -10)" width="17.92" />
+    </Rule>
+  </Style>
+  <Layer maximum-scale-denominator="50000" name="intersections" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName><![CDATA[intersections]]></StyleName>
+    <StyleName><![CDATA[intersections-cap1]]></StyleName>
+    <StyleName><![CDATA[intersections-cap2]]></StyleName>
+    <StyleName><![CDATA[intersections-cap3]]></StyleName>
+    <StyleName><![CDATA[intersections-cap4]]></StyleName>
+    <StyleName><![CDATA[intersections-cap5]]></StyleName>
+    <Datasource>
+      <Parameter name="type"><![CDATA[postgis]]></Parameter>
+      <Parameter name="dbname"><![CDATA[gis]]></Parameter>
+      <Parameter name="key_field"><![CDATA[]]></Parameter>
+      <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
+      <Parameter name="srid"><![CDATA[3857]]></Parameter>
+      <Parameter name="extent"><![CDATA[-9442230.528576257,4636087.527139462,-8962332.203766456,5157984.011691858]]></Parameter>
+      <Parameter name="table"><![CDATA[(select way, 'intersection' as feature, "nameEndAngle0", "nameEndAngle1", "nameEndAngle2", "nameEndAngle3", "nameEndAngle4", "nameEndAngle5", connections, "separatorAngle"
+FROM planet_osm_point AS features
+ORDER BY
+osm_id
+) AS intersections_sql]]></Parameter>
+    </Datasource>
+  </Layer>
+  <Style filter-mode="first" name="roads-text-name">
+    <Rule>
+      <MaxScaleDenominator>2500</MaxScaleDenominator>
+      <Filter><![CDATA[([width] != null)]]></Filter>
+      <TextSymbolizer allow-overlap="true" character-spacing="1" face-name="Roboto Black" fill="#000000" halo-fill="#cdf346" halo-radius="2" placement="line" placement-type="list" size="13" spacing="300" vertical-alignment="middle">[name]+'\n'<Format size='11'>[ref]</Format><Placement wrap-width='30'>[name]</Placement><Placement size='12'>[name]</Placement><Placement size='11'>[name]</Placement><Placement size='10'>[name]</Placement><Placement size='9'>[name]</Placement><Placement size='8'>[name]</Placement></TextSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <MinScaleDenominator>2500</MinScaleDenominator>
+      <Filter><![CDATA[([width] != null)]]></Filter>
+      <TextSymbolizer allow-overlap="true" character-spacing="1" face-name="Roboto Black" fill="#000000" halo-fill="#cdf346" halo-radius="2" placement="line" size="13" spacing="300" vertical-alignment="middle">[name]+'\n'<Format size='11'>[ref]</Format></TextSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([width] != null)]]></Filter>
+      <TextSymbolizer allow-overlap="true" character-spacing="1" face-name="Roboto Black" fill="#000000" halo-fill="#cdf346" halo-radius="2" placement="line" size="11" spacing="300" vertical-alignment="middle">[name]+'\n'<Format size='9'>[ref]</Format></TextSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([width] != null)]]></Filter>
+      <TextSymbolizer allow-overlap="true" character-spacing="1" face-name="Roboto Black" fill="#000000" halo-fill="#cdf346" halo-radius="2" placement="line" size="11" spacing="300" vertical-alignment="middle"><![CDATA[[name]]]></TextSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>2500</MaxScaleDenominator>
+      <Filter><![CDATA[([shoulder:left:width] != null)]]></Filter>
+      <TextSymbolizer allow-overlap="true" character-spacing="1" face-name="Roboto Black" fill="#000000" halo-fill="#cdf346" halo-radius="2" placement="line" placement-type="list" size="13" spacing="300" vertical-alignment="middle">[name]+'\n'<Format size='11'>[ref]</Format><Placement wrap-width='30'>[name]</Placement><Placement size='12'>[name]</Placement><Placement size='11'>[name]</Placement><Placement size='10'>[name]</Placement><Placement size='9'>[name]</Placement><Placement size='8'>[name]</Placement></TextSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <MinScaleDenominator>2500</MinScaleDenominator>
+      <Filter><![CDATA[([shoulder:left:width] != null)]]></Filter>
+      <TextSymbolizer allow-overlap="true" character-spacing="1" face-name="Roboto Black" fill="#000000" halo-fill="#cdf346" halo-radius="2" placement="line" size="13" spacing="300" vertical-alignment="middle">[name]+'\n'<Format size='11'>[ref]</Format></TextSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([shoulder:left:width] != null)]]></Filter>
+      <TextSymbolizer allow-overlap="true" character-spacing="1" face-name="Roboto Black" fill="#000000" halo-fill="#cdf346" halo-radius="2" placement="line" size="11" spacing="300" vertical-alignment="middle">[name]+'\n'<Format size='9'>[ref]</Format></TextSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([shoulder:left:width] != null)]]></Filter>
+      <TextSymbolizer allow-overlap="true" character-spacing="1" face-name="Roboto Black" fill="#000000" halo-fill="#cdf346" halo-radius="2" placement="line" size="11" spacing="300" vertical-alignment="middle"><![CDATA[[name]]]></TextSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>2500</MaxScaleDenominator>
+      <Filter><![CDATA[([shoulder:right:width] != null)]]></Filter>
+      <TextSymbolizer allow-overlap="true" character-spacing="1" face-name="Roboto Black" fill="#000000" halo-fill="#cdf346" halo-radius="2" placement="line" placement-type="list" size="13" spacing="300" vertical-alignment="middle">[name]+'\n'<Format size='11'>[ref]</Format><Placement wrap-width='30'>[name]</Placement><Placement size='12'>[name]</Placement><Placement size='11'>[name]</Placement><Placement size='10'>[name]</Placement><Placement size='9'>[name]</Placement><Placement size='8'>[name]</Placement></TextSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <MinScaleDenominator>2500</MinScaleDenominator>
+      <Filter><![CDATA[([shoulder:right:width] != null)]]></Filter>
+      <TextSymbolizer allow-overlap="true" character-spacing="1" face-name="Roboto Black" fill="#000000" halo-fill="#cdf346" halo-radius="2" placement="line" size="13" spacing="300" vertical-alignment="middle">[name]+'\n'<Format size='11'>[ref]</Format></TextSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <Filter><![CDATA[([shoulder:right:width] != null)]]></Filter>
+      <TextSymbolizer allow-overlap="true" character-spacing="1" face-name="Roboto Black" fill="#000000" halo-fill="#cdf346" halo-radius="2" placement="line" size="11" spacing="300" vertical-alignment="middle">[name]+'\n'<Format size='9'>[ref]</Format></TextSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <Filter><![CDATA[([shoulder:right:width] != null)]]></Filter>
+      <TextSymbolizer allow-overlap="true" character-spacing="1" face-name="Roboto Black" fill="#000000" halo-fill="#cdf346" halo-radius="2" placement="line" size="11" spacing="300" vertical-alignment="middle"><![CDATA[[name]]]></TextSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>2500</MaxScaleDenominator>
+      <TextSymbolizer allow-overlap="true" character-spacing="1" face-name="Roboto Black" fill="#ffffff" halo-fill="#000000" halo-radius="2" placement="line" placement-type="list" size="13" spacing="300" vertical-alignment="middle">[name]+'\n'<Format size='11'>[ref]</Format><Placement wrap-width='30'>[name]</Placement><Placement size='12'>[name]</Placement><Placement size='11'>[name]</Placement><Placement size='10'>[name]</Placement><Placement size='9'>[name]</Placement><Placement size='8'>[name]</Placement></TextSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>5000</MaxScaleDenominator>
+      <MinScaleDenominator>2500</MinScaleDenominator>
+      <TextSymbolizer allow-overlap="true" character-spacing="1" face-name="Roboto Black" fill="#ffffff" halo-fill="#000000" halo-radius="2" placement="line" size="13" spacing="300" vertical-alignment="middle">[name]+'\n'<Format size='11'>[ref]</Format></TextSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>12500</MaxScaleDenominator>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <TextSymbolizer allow-overlap="true" character-spacing="1" face-name="Roboto Black" fill="#ffffff" halo-fill="#000000" halo-radius="2" placement="line" size="11" spacing="300" vertical-alignment="middle">[name]+'\n'<Format size='9'>[ref]</Format></TextSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <TextSymbolizer allow-overlap="true" character-spacing="1" face-name="Roboto Black" fill="#ffffff" halo-fill="#000000" halo-radius="2" placement="line" size="11" spacing="300" vertical-alignment="middle"><![CDATA[[name]]]></TextSymbolizer>
+    </Rule>
+  </Style>
+  <Layer cache-features="true" maximum-scale-denominator="1500000" name="roads-text-name" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName><![CDATA[roads-text-name]]></StyleName>
+    <Datasource>
+      <Parameter name="type"><![CDATA[postgis]]></Parameter>
+      <Parameter name="dbname"><![CDATA[gis]]></Parameter>
+      <Parameter name="key_field"><![CDATA[]]></Parameter>
+      <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
+      <Parameter name="srid"><![CDATA[3857]]></Parameter>
+      <Parameter name="extent"><![CDATA[-9442230.528576257,4636087.527139462,-8962332.203766456,5157984.011691858]]></Parameter>
+      <Parameter name="table"><![CDATA[(select way, 'road' as feature, name, ref, maxspeed, lanes, surface, "SURFACE_TYPE_CD", oneway, width, "shoulder:left:width", "shoulder:right:width"
+  FROM planet_osm_roads AS features
+  ORDER BY
+    (case when maxspeed is null then 0 else maxspeed end), (case when "SURFACE_TYPE_CD" is null then 0 else 1 end), osm_id
+) AS roads_sql]]></Parameter>
+    </Datasource>
+  </Layer>
+</Map>
+

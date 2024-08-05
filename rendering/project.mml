@@ -1,0 +1,130 @@
+_parts:
+  srid: &srid "3857"
+  srs: &srs "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over"
+  world: &world
+    - -84.821
+    - 38.4
+    - -80.51
+    - 41.98
+  extents: &extents
+    extent: *world
+    srs-name: *srid
+    srs: *srs
+  osm2pgsql: &osm2pgsql
+    type: "postgis"
+    dbname: "gis"
+    key_field: ""
+    geometry_field: "way"
+    srid: *srid
+    extent: "-9442230.528576257,4636087.527139462,-8962332.203766456,5157984.011691858"
+
+scale: 1
+metatile: 2
+name: ODOT TIMS
+description: A style to highlight roadway information from the Ohio Department of Transportation's Transportation Information System
+bounds: *world
+center:
+  - -82.7
+  - 40.194
+  - 8
+format: png
+interactivity: false
+minzoom: 0
+maxzoom: 20
+srs: *srs
+
+Stylesheet:
+  - style/fonts.mss
+  - style/roads.mss
+  - style/intersections.mss
+Layer:
+  - id: roads-casing
+    geometry: linestring
+    <<: *extents
+    Datasource:
+      <<: *osm2pgsql
+      table: &roads_sql |-
+        (select way, 'road' as feature, name, ref, maxspeed, lanes, surface, "SURFACE_TYPE_CD", oneway, width, "shoulder:left:width", "shoulder:right:width"
+          FROM planet_osm_roads AS features
+          ORDER BY
+            (case when maxspeed is null then 0 else maxspeed end), (case when "SURFACE_TYPE_CD" is null then 0 else 1 end), osm_id
+        ) AS roads_sql
+    properties:
+      cache-features: true
+      minzoom: 0
+  - id: roads-fill
+    geometry: linestring
+    <<: *extents
+    Datasource:
+      <<: *osm2pgsql
+      table: *roads_sql
+    properties:
+      cache-features: true
+      minzoom: 0
+  - id: roads-lanes
+    geometry: linestring
+    <<: *extents
+    Datasource:
+      <<: *osm2pgsql
+      table: *roads_sql
+    properties:
+      cache-features: true
+      minzoom: 16
+  - id: roads-oneway
+    geometry: linestring
+    <<: *extents
+    Datasource:
+      <<: *osm2pgsql
+      table: *roads_sql
+    properties:
+      cache-features: true
+      minzoom: 14
+  - id: roads-label-lanes
+    geometry: linestring
+    <<: *extents
+    Datasource:
+      <<: *osm2pgsql
+      table: *roads_sql
+    properties:
+      cache-features: true
+      minzoom: 15
+  - id: roads-label-width
+    geometry: linestring
+    <<: *extents
+    Datasource:
+      <<: *osm2pgsql
+      table: *roads_sql
+    properties:
+      cache-features: true
+      minzoom: 16
+  - id: roads-label-other
+    geometry: linestring
+    <<: *extents
+    Datasource:
+      <<: *osm2pgsql
+      table: *roads_sql
+    properties:
+      cache-features: true
+      minzoom: 16
+  - id: intersections
+    geometry: point
+    <<: *extents
+    Datasource:
+      <<: *osm2pgsql
+      table: &intersections_sql |-
+        (select way, 'intersection' as feature, "nameEndAngle0", "nameEndAngle1", "nameEndAngle2", "nameEndAngle3", "nameEndAngle4", "nameEndAngle5", connections, "separatorAngle"
+        FROM planet_osm_point AS features
+        ORDER BY
+        osm_id
+        ) AS intersections_sql
+    properties:
+      minzoom: 14
+  - id: roads-text-name
+    geometry: linestring
+    <<: *extents
+    Datasource:
+      <<: *osm2pgsql
+      table: *roads_sql
+    properties:
+      cache-features: true
+      minzoom: 9

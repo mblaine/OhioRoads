@@ -47,3 +47,9 @@ Here are ODOT's road surface type codes and how they are represented in this map
 
 #### Example
 ![Roads with multiple speed limit and surface types](screenshots/example2.png)
+
+#### More information
+
+* [Rendering](rendering/README.md)
+* [Building the program](OhioRoadInventoryExtractor/BUILDING.txt)
+* [Comments in the main source code file](OhioRoadInventoryExtractor//OhioRoadInventoryExtractor/Program.cs)
