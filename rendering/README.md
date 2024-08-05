@@ -26,6 +26,7 @@ In  /etc/renderd.conf I also set:
     tile_dir=/mnt/d/TIMS/tile_cache
 
 I had some trouble with sockets and the Apache service that I resolved by running:
+
     sudo chmod 777 /var/run/renderd
 
 # Create the style
